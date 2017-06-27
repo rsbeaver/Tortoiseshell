@@ -63,6 +63,15 @@ ul li {
   display: inline;
   padding: 0 1rem;
 }
+ul li:hover {
+  color: red;
+  font-weight: 700;
+}
+
+ul li:active {
+  color: yellow;
+  
+}
 
 .mobile-menu {
   display: none;
